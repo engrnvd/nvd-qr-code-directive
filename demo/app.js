@@ -10,7 +10,6 @@
             name: "Naveed",
             city: "RYK"
         };
-
     }
 
 })();
