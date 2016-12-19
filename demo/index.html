@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Qr Code Directive</title>
+</head>
+<body ng-app="myApp" ng-controller="MainController as vm">
+
+<div class="container">
+
+    <h1 class="jumbotron">
+        A Light Weight Directive to Create Qr Code for Given Content
+    </h1>
+    <div class="row">
+        <div class="col-sm-6">
+            <nvd-qr-code content="vm.data"></nvd-qr-code>
+            <br><br>
+            <nvd-qr-code content="'naveed ul hassan'"></nvd-qr-code>
+            <br><br>
+            <nvd-qr-code content="'http://www.naveed.com'"></nvd-qr-code>
+        </div>
+    </div>
+
+</div>
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+<script src="../libs/qrcode.min.js"></script>
+<script src="../src/qrcode-directive.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
